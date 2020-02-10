@@ -1,0 +1,29 @@
+	@charset "UTF-8"
+
+	body { 
+		font-family: 'Playfair Display', 'Ubuntu', sans-serif;
+		
+	 }
+
+
+	 .hidden {
+	display: none;
+}
+
+#siteContainer {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#mainHeader {
+	margin-top: 40px;
+	padding-bottom: 20px;
+	height: 100px; /*Static content, hard coded height okay */
+	display: flex;
+	flex-direction: row;
+}
+
+#logo {
+	width: 260px;
+	margin-top: 5px;
+}
